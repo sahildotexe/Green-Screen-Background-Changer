@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+
+  <meta charset="UTF-8">
+  <title>Back ground image changer</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+<script type = "text/javascript" src ="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"> </script>
+
+ <h1 style="display: flexbox;">Change Background </h1>
+ <hr>
+<canvas id ="abc"></canvas>
+<canvas id ="xyz"></canvas>
+
+<p></p><br>
+Foreground:<input type = "file" multiple = "false"
+       accept = "image/*" id="fginput" onchange= "fgload()">
+<br><br>
+Background:<input type = "file" multiple = "false"
+       accept = "image/*" id="bginput" onchange= "bgload()">
+
+<input type = button value="Combine"
+        onclick = "combine()">
+<input type = button value="Clear"
+        onclick = "document. location. reload()">
+
+  <script  src="./script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+canvas{
+  width: 400px;
+  height: 400px;
+  border: 1px solid#c3c3c3;
+  }
+  html {
+    background-color: rgba(230,230,170);
+  }
+  hr{
+    background-color: white;
+    border-style: none;
+    border-top-style: dotted;
+    width: 30%;
+    height: 0;
+
+  }
